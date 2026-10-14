@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf8f3">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="مسيرة تخرج رفاه محمد الطاهي، خريجة التخدير والإنعاش. بطاقة احتفالية وحكاية ترتفع كأجمل النهايات.">
+  <title>رفاه محمد الطاهي | مسيرة حلم</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    :root { color-scheme:light; --ivory:#fbf8f3; --white:#fffdfa; --ink:#51483f; --muted:#7a7065; --gold:#a58044; --gold-dark:#87652f; --gold-light:#dbc5a0; --line:#e7ddce; --body-font:'Tajawal',sans-serif; --display-font:'Amiri','Traditional Arabic',serif; }
+    *,*::before,*::after { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:45px; }
+    body { margin:0; background:var(--ivory); color:var(--ink); font:16px/1.8 var(--body-font); -webkit-font-smoothing:antialiased; }
+    body.modal-open,body.is-opening { overflow:hidden; }
+    button,select { font:inherit; }
+    button,a,select { -webkit-tap-highlight-color:transparent; }
+    button { color:inherit; cursor:pointer; border:0; background:none; touch-action:manipulation; }
+    button:disabled { opacity:.45; cursor:default; }
+    a { color:inherit; text-decoration:none; touch-action:manipulation; }
+    img { max-width:100%; display:block; }
+    h1,h2,h3,p,figure { margin:0; }
+    [hidden] { display:none!important; }
+    ::selection { color:#59432d; background:#e8d9bf; }
+    :focus-visible { outline:2px solid var(--gold); outline-offset:5px; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    .icon { width:22px; height:22px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+    .container { width:min(1120px,calc(100% - 112px)); margin-inline:auto; }
+    .section { padding-block:105px; }
+    .eyebrow { color:var(--gold-dark); font-size:12px; font-weight:500; }
+    .section-title { font:400 clamp(34px,3.6vw,49px)/1.6 var(--display-font); }
+    .section-copy { color:var(--muted); font-size:16px; line-height:2; margin-top:8px; }
+    .gold { color:var(--gold); }
+    .button { display:inline-flex; justify-content:center; align-items:center; gap:12px; min-height:54px; padding:13px 27px 11px; border-radius:4px; font-size:15px; font-weight:500; transition:background .25s,box-shadow .3s,transform .3s; }
+    .button-primary { color:#fffdfa; background:linear-gradient(120deg,#916d39,#83602f); border:1px solid #9d7b45; box-shadow:0 7px 25px #9a75321a,inset 0 1px 0 #ffffff35; }
+    .button-primary:hover:not(:disabled) { transform:translateY(-3px); box-shadow:0 9px 30px #9a753234; background:linear-gradient(120deg,#936b36,#835e2d); }
+    .button-outline { border:1px solid #cdb891; color:var(--gold-dark); }
+    .button-outline:hover { background:#a5804409; transform:translateY(-2px); }
+    .button-text { color:var(--gold-dark); display:inline-flex; gap:8px; align-items:center; min-height:44px; padding:9px 0; font-size:14px; }
+    .icon-button { width:44px; height:44px; flex:0 0 44px; display:inline-grid; place-items:center; border-radius:50%; transition:background .2s; }
+    .icon-button:hover { background:#a5804410; }
+    .ornament { display:flex; justify-content:center; align-items:center; gap:15px; color:var(--gold-light); }
+    .ornament::before,.ornament::after { content:''; width:61px; height:1px; background:linear-gradient(90deg,transparent,var(--gold-light)); }
+    .ornament::after { transform:rotate(180deg); }
+    .ornament .icon { width:13px; height:13px; }
+    .site-header { position:absolute; inset:0 0 auto; height:94px; z-index:10; }
+    .header-inner { height:100%; margin:0 5.3%; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #b49a7026; gap:24px; }
+    .wordmark { display:flex; align-items:center; gap:14px; color:var(--gold-dark); }
+    .wordmark-name { font:35px/1.3 'Aref Ruqaa',serif; }
+    .wordmark-separator { height:24px; width:1px; background:var(--line); }
+    .wordmark-caption { font-size:12px; color:#837362; padding-top:6px; }
+    .main-nav { display:flex; gap:33px; font-size:13px; color:#796b5a; }
+    .main-nav a { display:inline-flex; align-items:center; min-height:44px; padding:10px 0; position:relative; }
+    .main-nav a::after { content:''; position:absolute; bottom:4px; inset-inline:50%; height:1px; background:var(--gold); transition:inset .3s; }
+    .main-nav a:hover::after { inset-inline:0; }
+    .header-note { display:flex; align-items:center; gap:9px; color:var(--gold-dark); font-size:12px; }
+    .header-note .icon { width:18px; height:18px; }
+    .hero { min-height:100vh; min-height:100svh; position:relative; isolation:isolate; overflow:hidden; display:flex; align-items:center; justify-content:center; text-align:center; padding:130px 24px 95px; }
+    .hero-media { position:absolute; inset:0; z-index:-3; background:var(--ivory); }
+    .hero-media img { width:100%; height:100%; object-fit:cover; opacity:.7; filter:saturate(.48) brightness(1.06); animation:picture-arrive 2.8s ease-out both; }
+    .hero-media::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,#fbf8f312 0%,#fbf8f3c2 31%,#fbf8f3ed 49%,#fbf8f3e3 77%,#fbf8f3c4 100%),linear-gradient(0deg,#fbf8f3 0%,#fbf8f300 26%,#fbf8f330 75%,#fbf8f3bd 100%); }
+    .hero-halo { position:absolute; z-index:-2; inset:12% 19%; background:radial-gradient(ellipse,#fffdfa9e,#fffdfa00 68%); pointer-events:none; }
+    .hero-branch { position:absolute; z-index:-1; width:clamp(160px,21vw,315px); height:470px; right:-16px; bottom:-52px; color:#b49a6c; opacity:.35; transform:rotate(-9deg); pointer-events:none; }
+    .hero-corner { position:absolute; width:74px; height:74px; pointer-events:none; }
+    .hero-corner.top { top:123px; right:35px; border-top:1px solid #b49a7040; border-right:1px solid #b49a7040; }
+    .hero-corner.bottom { bottom:32px; left:35px; border-bottom:1px solid #b49a7040; border-left:1px solid #b49a7040; }
+    .hero-content { width:min(930px,100%); position:relative; z-index:2; }
+    .hero-emblem { display:block; width:132px; height:86px; color:var(--gold); margin:0 auto 13px; }
+    .hero-eyebrow { color:#816b4d; font-size:13px; margin-bottom:9px; }
+    .hero-name { color:var(--gold-dark); font:400 clamp(46px,7.4vw,102px)/1.52 var(--display-font); text-shadow:0 3px 34px #cca95f20; margin-inline:-12px; }
+    .hero-name:focus { outline:none; }
+    .name-cap { display:inline-block; width:.32em; height:.32em; vertical-align:middle; margin-inline-start:.1em; color:#b09460; }
+    .hero-specialty { color:#796953; font-size:18px; margin-top:-2px; }
+    .hero .ornament { margin-block:22px 16px; }
+    .hero-quote { font:clamp(21px,2vw,25px)/1.95 var(--display-font); color:#827363; }
+    .hero-quote span { display:block; }
+    .hero-quote .harvest { color:#9c7a45; }
+    .open-button { min-width:258px; min-height:59px; margin-top:29px; font-size:16px; gap:14px; }
+    .open-button .icon { width:21px; height:21px; }
+    .intro-step { animation:arrive 1.2s cubic-bezier(.2,.7,.2,1) both; animation-delay:var(--delay,0s); }
+    .hero-emblem { --delay:.1s; } .hero-eyebrow { --delay:.2s; } .hero-name { --delay:.3s; } .hero-specialty { --delay:.4s; } .hero .ornament { --delay:.5s; } .hero-quote { --delay:.55s; } .open-button { --delay:.7s; }
+    .scroll-invitation { position:absolute; left:50%; bottom:20px; transform:translateX(-50%); font-size:11px; color:#86735d; display:flex; align-items:center; flex-direction:column; gap:2px; padding:5px 20px; }
+    .scroll-invitation .icon { width:16px; height:23px; animation:nudge 2.8s ease-in-out infinite; }
+    .greeting { position:relative; overflow:hidden; text-align:center; background:var(--white); }
+    .greeting .eyebrow { margin-bottom:12px; }
+    .greeting .section-title { color:#80613c; font-size:clamp(37px,4.3vw,56px); }
+    .greeting-heart { display:inline; width:24px; height:24px; color:#c7b49a; margin-right:9px; }
+    .greeting-copy { max-width:680px; margin:23px auto 0; font-size:17px; line-height:2.5; color:#796e62; }
+    .greeting-copy span { display:block; }
+    .greeting-copy .personal { color:#8a693c; margin-top:10px; }
+    .greeting .button-text { margin-top:26px; }
+    .greeting-sprig { position:absolute; top:110px; left:7%; width:95px; height:165px; color:var(--gold); opacity:.16; transform:rotate(-37deg); }
+    .section-heading { display:flex; align-items:center; justify-content:space-between; gap:28px; margin-bottom:37px; }
+    .section-heading .eyebrow { margin-bottom:9px; }
+    .section-heading > .icon { width:38px; height:38px; color:var(--gold-light); }
+    .gallery-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:26px; }
+    .gallery-item { min-width:0; }
+    .gallery-image-button { display:block; padding:0; width:100%; aspect-ratio:4 / 5; background:#eee5d9; position:relative; overflow:hidden; }
+    .gallery-image-button img { width:100%; height:100%; object-fit:cover; filter:saturate(.72); transition:transform .65s cubic-bezier(.2,.7,.2,1); }
+    .gallery-image-button:hover img { transform:scale(1.045); }
+    .image-expand { position:absolute; bottom:15px; left:15px; width:35px; height:35px; display:grid; place-items:center; border-radius:50%; background:#fffdfaee; color:var(--gold-dark); opacity:0; transform:translateY(5px); transition:opacity .2s,transform .2s; }
+    .gallery-image-button:hover .image-expand,.gallery-image-button:focus-visible .image-expand { opacity:1; transform:none; }
+    .image-expand .icon { width:16px; height:16px; }
+    .gallery-caption { color:var(--muted); font-size:13px; padding-top:15px; }
+    .gallery-note { text-align:center; font-size:12px; color:var(--muted); margin-top:27px; }
+    .photo-unavailable { position:absolute; inset:0; display:grid; place-items:center; padding:30px; color:var(--muted); text-align:center; font-size:13px; }
+    .certificate-section { background:#f2ece3; overflow:hidden; }
+    .certificate-layout { display:grid; grid-template-columns:.85fr 1.15fr; gap:85px; align-items:center; }
+    .certificate-copy .eyebrow { margin-bottom:16px; }
+    .certificate-copy .section-copy { max-width:310px; }
+    .certificate-frame { padding:17px; background:#fffdf9; border:1px solid #c5ad81; box-shadow:0 15px 50px #9a794512; position:relative; }
+    .certificate-frame::after { content:''; position:absolute; inset:-1px; pointer-events:none; box-shadow:0 0 28px #c8a86a30; animation:certificate-glow 6s ease-in-out infinite; }
+    .plaque { width:min(330px,100%); margin-inline:auto; padding:22px 18px 26px; background:linear-gradient(160deg,#2b2a33,#15151b 55%,#24232b); border-radius:8px 8px 14px 14px; box-shadow:0 22px 45px #2a1f1230, inset 0 0 0 1px #4a4756; position:relative; }
+    .plaque::before { content:''; position:absolute; top:-14px; left:50%; width:30px; height:30px; transform:translateX(-50%) rotate(45deg); border:2px solid #b9955a; border-radius:4px; background:#15151b; }
+    .plaque-paper { background:linear-gradient(175deg,#f8f1e3,#eadfcb); border:2px double #b08a4f; padding:22px 16px 20px; text-align:center; color:#3b2f20; position:relative; }
+    .plaque-paper::after { content:''; position:absolute; inset:6px; border:1px solid #c9ad7a66; pointer-events:none; }
+    .plaque-seals { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+    .plaque-seal { width:46px; height:46px; border-radius:50%; border:1.5px solid #a98650; display:grid; place-items:center; color:#8d6b3a; font:9px/1.2 var(--body-font); }
+    .plaque-seal .icon { width:22px; height:22px; }
+    .plaque-institute { font:700 15px/1.9 var(--body-font); color:#4a3a26; }
+    .plaque-line { font:13px/1.9 var(--body-font); color:#5e4c35; }
+    .plaque-name { margin:12px 0 10px; font:700 clamp(24px,5vw,30px)/1.5 var(--display-font); color:#9a7a28; text-shadow:0 1px 0 #fff8e8; }
+    .plaque-dept { font:700 13px/1.9 var(--body-font); color:#4a3a26; }
+    .plaque-year { margin-top:6px; font:12px/1.6 Georgia,serif; letter-spacing:1px; color:#6b5538; }
+    .plaque-note { text-align:center; font-size:11px; color:var(--muted); margin-top:14px; }
+    .certificate-pending { padding:20px 10px 12px; }
+    .certificate-preview { display:block; padding:0; width:100%; position:relative; }
+    .certificate-preview img { width:100%; max-height:650px; object-fit:contain; }
+    .certificate-caption { text-align:center; color:var(--muted); font-size:12px; margin-top:13px; }
+    .graduate { background:var(--white); }
+    .graduate-layout { display:grid; grid-template-columns:1fr 1.2fr; gap:105px; align-items:center; }
+    .graduate-heading .eyebrow { margin-bottom:14px; }
+    .graduate-heading .section-copy { max-width:315px; }
+    .graduate-details { margin:0; border-top:1px solid var(--line); }
+    .detail-row { padding:19px 0; display:grid; grid-template-columns:115px 1fr; gap:20px; border-bottom:1px solid var(--line); align-items:baseline; }
+    .detail-row dt { color:var(--muted); font-size:13px; }
+    .detail-row dd { margin:0; color:#6f5a42; font-size:16px; overflow-wrap:anywhere; }
+    .detail-row:first-child dd { font:27px/1.8 var(--display-font); }
+    .detail-row .icon { display:inline; vertical-align:middle; width:19px; height:19px; margin-right:7px; color:var(--gold); }
+    .closing { text-align:center; position:relative; overflow:hidden; padding:94px 24px 85px; background:#f5ede8; }
+    .closing .ornament { margin-bottom:28px; }
+    .closing-quote { font:clamp(28px,3vw,41px)/1.8 var(--display-font); color:#7e654b; }
+    .closing-name { font:400 33px/1.8 var(--display-font); color:#9d7a46; margin-top:28px; }
+    .closing-specialty,.closing-wish { color:var(--muted); font-size:14px; }
+    .closing-wish { margin-top:30px; }
+    .closing-bottom { max-width:1120px; margin:65px auto 0; padding-top:23px; border-top:1px solid #dbcbbd90; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .closing-bottom p,.closing-bottom .button-text { font-size:12px; color:var(--muted); }
+    .closing-sprig { position:absolute; width:190px; height:330px; color:#b09467; opacity:.12; left:-50px; top:75px; transform:rotate(35deg); pointer-events:none; }
+    .floral-frame { position:fixed; inset:0; z-index:35; pointer-events:none; }
+    .floral-frame::before { content:''; position:absolute; inset:10px; border:1px solid #c9ad7a66; border-radius:3px; }
+    .floral-frame::after { content:''; position:absolute; inset:16px; border:1px solid #d9b8bf55; }
+    .floral-corner { position:absolute; width:clamp(120px,19vw,250px); height:clamp(120px,19vw,250px); }
+    .floral-corner.tl { top:-8px; left:-8px; }
+    .floral-corner.tr { top:-8px; right:-8px; transform:scaleX(-1); }
+    .floral-corner.bl { bottom:-8px; left:-8px; transform:scaleY(-1); }
+    .floral-corner.br { bottom:-8px; right:-8px; transform:scale(-1); }
+    .floral-edge { position:absolute; left:50%; transform:translateX(-50%); width:min(46vw,420px); height:54px; }
+    .floral-edge.top { top:-4px; } .floral-edge.bottom { bottom:-4px; transform:translateX(-50%) scaleY(-1); }
+    .floral-side { position:absolute; top:50%; width:54px; height:min(40vh,340px); }
+    .floral-side.left { left:-4px; transform:translateY(-50%) rotate(-90deg); }
+    .floral-side.right { right:-4px; transform:translateY(-50%) rotate(90deg); }
+    @media (max-width:680px) { .floral-edge,.floral-side { display:none; } .floral-frame::after { inset:13px; } }
+    .motion-ready .reveal { opacity:0; transform:translateY(24px); transition:opacity .9s,transform 1s cubic-bezier(.2,.7,.2,1); transition-delay:var(--reveal-delay,0s); }
+    .motion-ready .reveal.is-visible { opacity:1; transform:none; }
+    #celebrationCanvas { position:fixed; inset:0; width:100%; height:100%; z-index:55; pointer-events:none; }
+    .opening-transition { position:fixed; inset:0; z-index:60; perspective:1800px; pointer-events:none; visibility:hidden; }
+    .is-opening .opening-transition { visibility:visible; }
+    .card-leaf { position:absolute; top:0; width:50%; height:100%; background:#f8f3ea; backface-visibility:hidden; overflow:hidden; }
+    .card-leaf::before { content:''; position:absolute; inset:24px; border:1px solid #cbb48b70; }
+    .leaf-sprig { position:absolute; top:20%; width:260px; height:500px; color:#b2996c; opacity:.25; }
+    .leaf-left { left:0; transform-origin:left center; border-right:1px solid #bca074; }
+    .leaf-right { right:0; transform-origin:right center; border-left:1px solid #bca074; }
+    .leaf-left .leaf-sprig { right:30px; transform:rotate(-20deg); }
+    .leaf-right .leaf-sprig { left:30px; transform:scaleX(-1) rotate(-20deg); }
+    .is-opening .leaf-left { animation:unfold-left 1.65s cubic-bezier(.3,.05,.15,1) forwards; }
+    .is-opening .leaf-right { animation:unfold-right 1.65s cubic-bezier(.3,.05,.15,1) forwards; }
+
+    .presentation-shell.is-presenting { position:fixed; inset:0; z-index:40; }
+    .credits { position:fixed; inset:0; z-index:40; background:#fbf8f3; isolation:isolate; overflow:hidden; }
+    .credits-background { position:absolute; inset:0; z-index:-2; }
+    .credits-background img { width:100%; height:100%; object-fit:cover; filter:saturate(.35); opacity:.12; }
+    .credits-background::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,#fbf8f349,#fbf8f3f2 35%,#fbf8f3f2 65%,#fbf8f349); }
+    .credits-sprig { position:absolute; z-index:-1; right:-45px; top:25%; width:220px; height:420px; opacity:.14; color:var(--gold); transform:rotate(-10deg); }
+    .credits-header { position:absolute; top:0; inset-inline:5.3%; height:88px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #cbb48b40; gap:18px; }
+    .credits-header-title { color:#8a704b; font-size:13px; font-weight:400; }
+    .credits-header .wordmark-name { font-size:31px; }
+    .credits-stage { position:absolute; inset:103px 0 107px; overflow:hidden; -webkit-mask-image:linear-gradient(to bottom,transparent,#000 13%,#000 80%,transparent); mask-image:linear-gradient(to bottom,transparent,#000 13%,#000 80%,transparent); }
+    .credits-track { width:min(620px,calc(100% - 64px)); margin-inline:auto; position:relative; text-align:center; will-change:transform; }
+    .credit-block { padding-block:62px; }
+    .credit-block .eyebrow { margin-bottom:18px; }
+    .credit-emblem { display:block; width:128px; height:90px; color:var(--gold); margin:0 auto 28px; }
+    .credit-name { color:var(--gold-dark); font:400 clamp(39px,5.3vw,65px)/1.65 var(--display-font); text-shadow:0 0 30px #c8a86a2b; }
+    .credit-specialty { font-size:18px; color:#7c6a55; margin-top:13px; }
+    .credit-title { color:#86663e; font:400 clamp(33px,3.5vw,45px)/1.8 var(--display-font); }
+    .credit-copy { color:#796d60; font:clamp(21px,2.3vw,26px)/2.2 var(--display-font); margin-top:23px; }
+    .credit-copy span { display:block; }
+    .credit-quote { color:#85673f; font:clamp(28px,3vw,40px)/2 var(--display-font); }
+    .credit-quote span { display:block; }
+    .credit-block .ornament { margin-top:36px; }
+    .credit-photo { margin-top:38px; }
+    .credit-photo img { width:100%; aspect-ratio:16 / 10; object-fit:cover; filter:saturate(.7); }
+    .credit-photo figcaption { color:var(--muted); font-size:14px; margin-top:15px; }
+    .credit-photo .portrait { aspect-ratio:4 / 3; object-position:50% 55%; }
+    .credit-certificate { margin:32px auto 0; width:min(370px,100%); padding:12px; border:1px solid #c9af80; background:#fffdf9; }
+    .credit-certificate img { width:100%; max-height:640px; object-fit:contain; }
+    .credit-certificate-pending { padding:40px 20px; color:var(--muted); font-size:14px; }
+    .credit-certificate-pending .icon { display:block; width:45px; height:45px; margin:0 auto 20px; color:var(--gold); }
+    .credit-end-name { color:var(--gold-dark); font:400 43px/1.8 var(--display-font); margin-top:27px; }
+    .credits-toolbar { position:absolute; z-index:2; bottom:22px; left:50%; transform:translateX(-50%); display:flex; align-items:center; justify-content:center; gap:25px; padding-top:14px; border-top:1px solid #d8c8ad70; max-width:calc(100% - 40px); white-space:nowrap; }
+    .credits-toolbar button { min-height:44px; display:inline-flex; align-items:center; justify-content:center; gap:8px; font-size:13px; color:#82673f; padding:7px 9px; }
+    .credits-toolbar .icon { width:18px; height:18px; }
+    .credits-toolbar button:hover:not(:disabled) { color:#503819; }
+    .credits-finish { position:absolute; inset:105px 20px 128px; display:flex; flex-direction:column; align-items:center; justify-content:center; justify-content:safe center; overflow:auto; overscroll-behavior:contain; padding-block:12px; text-align:center; animation:arrive 1.2s ease-out both; }
+    .credits-finish .hero-emblem { margin-bottom:22px; }
+    .credits-finish h2 { color:var(--gold-dark); font:400 clamp(46px,6vw,75px)/1.7 var(--display-font); }
+    .credits-finish .finish-wish { max-width:500px; margin-top:24px; font:23px/2 var(--display-font); color:#796652; }
+    .credits-finish .button { margin-top:29px; }
+
+    .music-button { position:fixed; z-index:72; left:25px; bottom:25px; display:flex; align-items:center; gap:9px; padding:10px 17px; min-height:45px; border:1px solid #d9c9ae; border-radius:40px; background:#fffdf6ed; box-shadow:0 4px 20px #71582709; color:var(--gold-dark); font-size:12px; backdrop-filter:blur(10px); transition:transform .3s,border-color .3s; }
+    .music-button:hover { transform:translateY(-2px); border-color:var(--gold); }
+    .music-button .icon { width:18px; height:18px; }
+    .equalizer { display:none; height:18px; width:18px; align-items:center; gap:3px; direction:ltr; }
+    .equalizer i { width:2px; height:12px; background:currentColor; animation:equalize 1s ease-in-out infinite alternate; }
+    .equalizer i:nth-child(2) { height:18px; animation-delay:-.3s; } .equalizer i:nth-child(3) { height:9px; animation-delay:-.65s; }
+    .music-button[aria-pressed="true"] > .icon { display:none; } .music-button[aria-pressed="true"] .equalizer { display:flex; }
+    .yt-audio-holder { position:fixed; left:-10000px; top:0; width:200px; height:200px; opacity:0; pointer-events:none; overflow:hidden; z-index:-1; }
+    .yt-audio-holder iframe { width:200px; height:200px; display:block; border:0; }
+    .toast { position:fixed; z-index:90; left:50%; bottom:28px; width:max-content; max-width:min(90vw,560px); background:#fffdf8; border:1px solid #decfb7; border-radius:4px; color:#7c653f; padding:13px 23px; text-align:center; font-size:13px; box-shadow:0 8px 35px #47361e12; transform:translate(-50%,15px); opacity:0; pointer-events:none; transition:opacity .25s,transform .25s; }
+    .toast.visible { opacity:1; transform:translate(-50%,0); }
+    dialog { margin:auto; border:0; padding:0; color:#fff; }
+    dialog::backdrop { background:#25211f; }
+    .lightbox { width:100vw; height:100vh; height:100dvh; max-width:none; max-height:none; background:#25211ff5; border-radius:0; overflow:hidden; }
+    .lightbox[open] { display:grid; grid-template-rows:76px minmax(0,1fr) 75px; }
+    .lightbox-header { display:flex; align-items:center; justify-content:space-between; padding:12px 28px; gap:18px; }
+    .lightbox-title { font-size:14px; font-weight:400; color:#e4d3b9; }
+    .lightbox .icon-button:hover { background:#ffffff16; }
+    .lightbox-stage { display:flex; align-items:center; justify-content:center; position:relative; min-height:0; padding:5px 85px; }
+    .lightbox-stage img { max-width:100%; max-height:100%; object-fit:contain; user-select:none; }
+    .lightbox-arrow { position:absolute; top:50%; transform:translateY(-50%); width:48px; height:48px; border:1px solid #d1b99240; border-radius:50%; display:grid; place-items:center; background:#25211f80; }
+    .lightbox-arrow:hover { background:#645239; }
+    .lightbox-prev { right:22px; } .lightbox-next { left:22px; }
+    .lightbox-controls { display:flex; align-items:center; justify-content:center; gap:25px; padding:14px 24px; color:#dac6aa; font-size:13px; }
+    .lightbox-controls a { min-height:44px; display:flex; align-items:center; gap:8px; }
+    .lightbox-controls .icon { width:16px; height:16px; }
+    .noscript-note { text-align:center; padding:18px; background:#eee1ce; color:#715838; font-size:14px; }
+    @keyframes arrive { from { opacity:0; transform:translateY(17px); } to { opacity:1; transform:none; } }
+    @keyframes picture-arrive { from { opacity:0; transform:scale(1.035); } to { opacity:.7; transform:scale(1); } }
+    @keyframes unfold-left { 0%,10% { transform:rotateY(0); opacity:1; } 82% { opacity:1; } 100% { transform:rotateY(110deg); opacity:0; } }
+    @keyframes unfold-right { 0%,10% { transform:rotateY(0); opacity:1; } 82% { opacity:1; } 100% { transform:rotateY(-110deg); opacity:0; } }
+    @keyframes nudge { 0%,100% { transform:translateY(0); } 50% { transform:translateY(5px); } }
+    @keyframes certificate-glow { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+    @keyframes equalize { from { transform:scaleY(.35); } to { transform:scaleY(1); } }
+    @media (max-width:1000px) {
+      .container { width:calc(100% - 72px); } .header-note { display:none; } .main-nav { gap:23px; }
+      .hero-name { font-size:clamp(50px,8vw,83px); } .hero-branch { right:-60px; opacity:.25; }
+      .certificate-layout,.graduate-layout { gap:45px; } .detail-row { grid-template-columns:88px 1fr; gap:14px; }
+    }
+    @media (max-width:680px) {
+      .container { width:calc(100% - 40px); } .section { padding-block:72px; } .site-header { height:77px; }
+      .header-inner { margin-inline:23px; gap:13px; } .wordmark-name { font-size:31px; } .wordmark-caption { font-size:11px; }
+      .main-nav { gap:19px; font-size:11px; } .main-nav a:last-child { display:none; }
+      .hero { padding:112px 22px 94px; } .hero-media img { object-position:29% center; }
+      .hero-media::after { background:linear-gradient(90deg,#fbf8f3b0 0%,#fbf8f3e0 38%,#fbf8f3ef 68%,#fbf8f3d9 100%),linear-gradient(0deg,#fbf8f3 0%,transparent 40%,#fbf8f35c 100%); }
+      .hero-halo { inset:10% 0; } .hero-branch { width:145px; height:290px; right:-45px; bottom:-44px; }
+      .hero-corner.top { top:100px; right:17px; width:43px; height:43px; } .hero-corner.bottom { left:17px; bottom:21px; width:43px; height:43px; }
+      .hero-emblem { width:112px; height:73px; margin-bottom:17px; } .hero-eyebrow { font-size:12px; margin-bottom:17px; }
+      .hero-name { font-size:clamp(36px,9.3vw,58px); line-height:1.75; margin-inline:-7px; } .hero-specialty { font-size:15px; margin-top:2px; }
+      .hero .ornament { margin-block:22px 14px; } .hero-quote { font-size:21px; line-height:2; }
+      .open-button { min-width:239px; min-height:56px; margin-top:27px; font-size:15px; }
+      .greeting-copy { font-size:15px; line-height:2.4; } .greeting-copy span { display:inline; } .greeting-copy .personal { display:block; margin-top:13px; }
+      .greeting-sprig { top:auto; bottom:25px; left:-15px; height:100px; }
+      .section-heading { gap:15px; margin-bottom:27px; } .section-heading > .icon { width:28px; height:28px; }
+      .section-copy { font-size:14px; } .gallery-grid { grid-template-columns:1fr; gap:32px; }
+      .gallery-image-button { aspect-ratio:5 / 4; } .gallery-item:first-child .gallery-image-button { aspect-ratio:4 / 5; }
+      .image-expand { opacity:1; transform:none; width:31px; height:31px; bottom:12px; left:12px; }
+      .gallery-caption { font-size:12px; padding-top:11px; } .gallery-note { font-size:11px; }
+      .certificate-layout,.graduate-layout { grid-template-columns:1fr; gap:35px; }
+      .certificate-copy .section-copy,.graduate-heading .section-copy { max-width:none; } .certificate-pending { min-height:265px; padding:35px 16px; }
+      .detail-row { grid-template-columns:95px 1fr; padding-block:16px; }
+      .closing { padding:72px 20px 92px; } .closing-quote { max-width:300px; margin-inline:auto; line-height:1.9; }
+      .closing-name { font-size:30px; margin-top:23px; } .closing-wish { max-width:280px; margin-inline:auto; font-size:12px; }
+      .closing-bottom { margin-top:48px; padding-top:17px; } .closing-bottom p { font-size:10px; } .closing-bottom .button-text { font-size:11px; }
+      .credits-header { height:78px; inset-inline:20px; }
+      .credits-header-title { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+      .credits-stage { inset:90px 0 107px; } .credits-track { width:calc(100% - 52px); }
+      .credit-block { padding-block:43px; } .credit-emblem { width:112px; height:77px; margin-bottom:23px; }
+      .credit-name { font-size:clamp(34px,9.5vw,48px); } .credit-specialty { font-size:15px; }
+      .credit-copy { font-size:21px; line-height:2.2; } .credit-title { font-size:33px; } .credit-photo { margin-top:27px; }
+      .credit-photo figcaption { font-size:12px; } .credit-end-name { font-size:33px; }
+      .credits-sprig { width:130px; height:300px; right:-40px; }
+      .credits-toolbar { gap:12px; bottom:17px; width:calc(100% - 32px); max-width:none; justify-content:space-between; }
+      .credits-toolbar button { font-size:11px; padding-inline:3px; gap:5px; } .credits-toolbar .icon { width:16px; height:16px; }
+      .credits-finish { inset:100px 22px 107px; } .credits-finish h2 { font-size:43px; } .credits-finish .finish-wish { font-size:20px; }
+      .music-button { left:17px; bottom:17px; padding:10px 13px; min-height:44px; font-size:11px; gap:7px; }
+      .presentation-shell.is-presenting .music-button { top:17px; left:75px; bottom:auto; }
+      .toast { bottom:143px; font-size:12px; padding:12px 18px; }
+      .lightbox-header { padding-inline:15px; } .lightbox-stage { padding:0 10px; }
+      .lightbox-arrow { top:auto; bottom:-60px; transform:none; width:44px; height:44px; } .lightbox-prev { right:15px; } .lightbox-next { left:15px; }
+      .lightbox-controls { gap:14px; font-size:12px; padding-inline:65px; }
+    }
+    @media (max-width:360px) { .wordmark-caption,.wordmark-separator { display:none; } .hero-name { font-size:33px; } .hero-quote { font-size:19px; } .main-nav { gap:15px; } .credits-toolbar { gap:5px; } }
+    @media (max-height:600px) { .credits-header { height:65px; } .credits-stage { top:72px; bottom:88px; } .credits-finish { top:72px; bottom:80px; } .credits-finish .hero-emblem { height:48px; margin-bottom:5px; } .credits-finish h2 { font-size:35px; } .credits-finish .finish-wish { font-size:17px; margin-top:8px; } .credits-finish .button { margin-top:15px; } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation:none!important; transition:none!important; } .motion-ready .reveal { opacity:1; transform:none; } #celebrationCanvas,.opening-transition { display:none!important; } }
+  </style>
+</head>
+<body>
+  <svg class="sr-only" width="0" height="0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v6c4 3 8 3 12 0v-6M22 9v8m-1 2 1-2 1 2"/></symbol>
+      <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 3 2.4 6.6L21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3Z"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m14 6-6 6 6 6M8 12h13"/></symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="m10 6 6 6-6 6M16 12H3"/></symbol>
+      <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 3v17m-5-5 5 5 5-5"/></symbol>
+      <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 17V5l12-2v12M9 9l12-2"/><ellipse cx="6" cy="18" rx="3" ry="2.5"/><ellipse cx="18" cy="16" rx="3" ry="2.5"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+      <symbol id="i-certificate" viewBox="0 0 24 24"><path d="M15 21H4V3h16v10M8 7h8M8 11h5"/><circle cx="17" cy="16" r="3"/><path d="m15 18-1 5 3-2 3 2-1-5"/></symbol>
+      <symbol id="i-expand" viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 4 13 8-13 8V4Z"/></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></symbol>
+      <symbol id="i-replay" viewBox="0 0 24 24"><path d="M3 10a9 9 0 1 1 2 9M3 4v6h6"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6C9 3 5 3 2 4v15c4-1 7 0 10 2 3-2 6-3 10-2V4c-3-1-7-1-10 2Zm0 0v15"/></symbol>
+      <symbol id="i-envelope" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7M3 19l6-7m12 7-6-7"/></symbol>
+      <symbol id="rose" viewBox="0 0 40 40"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="20" r="13" fill="#f1c8cf"/><path d="M20 8c7 0 12 5 12 12s-5 12-12 12S8 27 8 20 13 8 20 8Zm0 4c-5 0-8 3-8 8s3 8 8 8 8-3 8-8-3-8-8-8Zm0 4c-3 0-4 2-4 4s1 4 4 4 4-2 4-4-1-4-4-4Zm-1 3c1-1 2 0 2 1" stroke="#c98a95" stroke-width="1.1"/><path d="M5 22c4-3 8-1 10 3-5 1-8 0-10-3Zm30 0c-4-3-8-1-10 3 5 1 8 0 10-3Z" fill="#b7c7a3" stroke="#8aa070" stroke-width=".9"/></g></symbol>
+      <symbol id="leafy" viewBox="0 0 60 24"><g fill="#c7d4b4" stroke="#8aa070" stroke-width=".8"><path d="M2 12c18-12 38-12 56 0-18 12-38 12-56 0Z" fill="none" stroke="#a89062"/><path d="M8 12c4-6 10-7 14-3-4 5-9 6-14 3Zm16-3c4-6 10-7 14-3-4 5-9 6-14 3Zm16 3c4-6 10-7 14-3-4 5-9 6-14 3ZM8 12c4 6 10 7 14 3-4-5-9-6-14-3Zm16 3c4 6 10 7 14 3-4-5-9-6-14-3Zm16-3c4 6 10 7 14 3-4-5-9-6-14-3Z"/></g></symbol>
+      <symbol id="floral-corner" viewBox="0 0 200 200"><g fill="none" stroke="#a98650" stroke-width="1"><path d="M0 60C40 60 70 40 90 0M0 110C60 110 110 60 110 0M0 150C80 150 150 80 150 0"/><path d="M20 100c10-20 30-25 40-15-10 15-25 20-40 15Zm40-30c0-20 15-32 30-28-2 17-14 27-30 28ZM100 20c20 0 32 15 28 30-17-2-27-14-28-30ZM25 140c15-18 35-18 45-5-15 12-32 14-45 5ZM80 80c10-22 32-28 44-16-12 18-30 22-44 16Z" fill="#cfd9bf" stroke="#8aa070" stroke-width=".8"/></g><use href="#rose" x="2" y="2" width="56" height="56"/><use href="#rose" x="48" y="38" width="38" height="38"/><use href="#rose" x="12" y="62" width="32" height="32"/><use href="#rose" x="78" y="4" width="30" height="30"/><g fill="#e8d3a2"><circle cx="118" cy="48" r="3"/><circle cx="60" cy="110" r="3"/><circle cx="135" cy="18" r="2.4"/><circle cx="20" cy="128" r="2.4"/><circle cx="96" cy="76" r="2"/></g><g fill="#f4dfe3"><circle cx="150" cy="40" r="2.3"/><circle cx="40" cy="155" r="2.3"/><circle cx="110" cy="100" r="2"/></g></symbol>
+      <symbol id="botanical" viewBox="0 0 220 360"><g fill="none" stroke="currentColor" stroke-width=".85"><path d="M134 358C95 290 109 260 107 206S61 112 75 13M115 290c50-22 67-54 78-80M107 248c-43-21-64-50-77-81M97 184c40-25 49-50 51-80M79 122C42 98 28 79 22 41"/><path d="M75 29C57 15 66 1 78 0c9 17 8 22-3 29ZM73 64C45 53 42 38 49 26c22 11 29 23 24 38ZM75 75c22-21 39-18 41-8-13 17-27 18-41 8ZM77 102C50 87 43 69 50 59c19 12 27 25 27 43ZM82 123c27-20 38-11 37-2-16 11-27 12-37 2ZM91 160c-31-7-40-25-34-35 23 5 33 18 34 35ZM98 180c27-5 41 3 39 15-17 2-33-3-39-15ZM105 213c-26-8-37-22-33-33 22 3 31 17 33 33ZM108 247c25-16 42-8 39 3-20 9-30 7-39-3ZM108 272c-28-4-44-18-39-31 26 0 38 13 39 31ZM120 315c24-15 45-8 41 6-22 7-30 3-41-6Z"/><path d="M143 273c2-24 15-33 24-26 0 18-11 23-24 26ZM165 252c17 3 35-5 31-17-15-3-28 7-31 17ZM180 232c-6-22 4-34 12-28 7 10 0 25-12 28ZM56 206c-23-1-38-17-32-25 19-2 29 11 32 25ZM40 183c3-23-11-37-18-29-2 14 6 25 18 29ZM122 156c-4-22 5-35 15-27 3 15-3 22-15 27ZM142 123c16-4 25-19 17-26-14 6-19 15-17 26ZM40 76c-18-1-29-13-24-20 16 0 23 8 24 20ZM24 48C6 36 9 21 19 21c11 11 13 20 5 27Z"/><path d="M143 310c7-43 39-55 63-49M84 286c-21 4-48-6-60-26"/><circle cx="208" cy="261" r="3"/><circle cx="24" cy="260" r="3"/></g></symbol>
+      <symbol id="graduate-emblem" viewBox="0 0 140 90"><g fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"><path d="m37 31 33-15 34 15-34 16-33-16Zm12 6v20c13 8 28 8 42 0V37m13-6v28m-3 7 3-7 3 7"/><path d="M57 78C31 70 20 51 24 31m61 47c25-8 36-27 32-47M55 78l15 5 16-5"/><path d="M27 50c-11-1-14-8-12-14 9 3 12 8 12 14Zm8 14c-12 3-18-2-19-8 10-1 16 2 19 8Zm11 10c-11 7-18 4-20-2 9-4 15-3 20 2Zm-19-25c8-8 7-15 2-18-6 6-5 13-2 18Zm7 14c6-9 4-16-2-17-4 8-3 13 2 17Zm13 11c3-10 0-16-6-15-2 8 0 12 6 15Z"/><path d="M113 50c11-1 14-8 12-14-9 3-12 8-12 14Zm-8 14c12 3 18-2 19-8-10-1-16 2-19 8Zm-11 10c11 7 18 4 20-2-9-4-15-3-20 2Zm19-25c-8-8-7-15-2-18 6 6 5 13 2 18Zm-7 14c-6-9-4-16 2-17 4 8 3 13-2 17Zm-13 11c-3-10 0-16 6-15 2 8 0 12-6 15Z"/><path d="m70 3 1.5 4.5L76 9l-4.5 1.5L70 15l-1.5-4.5L64 9l4.5-1.5L70 3Z"/></g></symbol>
+    </defs>
+  </svg>
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a class="wordmark" href="#beginning" aria-label="رفاه، العودة إلى البداية"><span class="wordmark-name">رفاه</span><span class="wordmark-separator" aria-hidden="true"></span><span class="wordmark-caption">حكاية تخرّج</span></a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي"><a href="#beginning">البداية</a><a href="#memories" data-destination="memories">الذكريات</a><a href="#certificate" data-destination="certificate">شهادة التخرج</a></nav>
+      <span class="header-note"><svg class="icon" aria-hidden="true"><use href="#i-sparkle"/></svg>بكل فخر ومحبة</span>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="beginning" aria-labelledby="graduateName">
+      <div class="hero-media" aria-hidden="true"><img src="https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="" fetchpriority="high" width="1200" height="627"></div>
+      <div class="hero-halo" aria-hidden="true"></div><svg class="hero-branch" aria-hidden="true"><use href="#botanical"/></svg><div class="hero-corner top" aria-hidden="true"></div><div class="hero-corner bottom" aria-hidden="true"></div>
+      <div class="hero-content">
+        <svg class="hero-emblem intro-step" aria-hidden="true"><use href="#graduate-emblem"/></svg>
+        <p class="hero-eyebrow intro-step">لِكُلّ حُلمٍ يومٌ يُزهر فيه</p>
+        <h1 class="hero-name intro-step" id="graduateName" tabindex="-1">رفاه محمد الطاهي<svg class="icon name-cap" aria-hidden="true"><use href="#i-cap"/></svg></h1>
+        <p class="hero-specialty intro-step">خريجة اختصاص التخدير والإنعاش</p>
+        <div class="ornament intro-step" aria-hidden="true"><svg class="icon"><use href="#i-sparkle"/></svg></div>
+        <p class="hero-quote intro-step"><span>وبعد سنواتٍ من التعب والسهر…</span><span class="harvest">جاء يوم الحصاد</span></p>
+        <button class="button button-primary open-button intro-step" id="openInvitation" type="button" aria-expanded="false" aria-controls="celebration"><svg class="icon" aria-hidden="true"><use href="#i-envelope"/></svg><span id="openButtonLabel">افتحوا بطاقة التخرج</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+      </div>
+      <a class="scroll-invitation" id="scrollInvitation" href="#congratulations" hidden><span>للحكاية بقيّة</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-down"/></svg></a>
+    </section>
+    <div id="celebration" hidden>
+      <section class="greeting section" id="congratulations" aria-labelledby="greetingTitle">
+        <svg class="greeting-sprig" aria-hidden="true"><use href="#botanical"/></svg>
+        <div class="container">
+          <p class="eyebrow reveal">للفرح اسم… وللنجاح حكاية</p>
+          <h2 class="section-title reveal" id="greetingTitle">ألف مبارك التخرج <svg class="icon greeting-heart" aria-hidden="true"><use href="#i-heart"/></svg></h2>
+          <div class="greeting-copy"><span class="reveal" style="--reveal-delay:.15s">اليوم ليس يوماً عادياً… اليوم ثمرة سنوات من التعب والسهر والاجتهاد.</span><span class="reveal" style="--reveal-delay:.3s">ألف مبارك لكِ يا رفاه، ومنها للأعلى دائماً،</span><span class="personal reveal" style="--reveal-delay:.45s">وعقبال أعلى المراتب والنجاحات. 🤍</span></div>
+          <button class="button-text reveal" type="button" data-start-credits><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>شاهدوا مسيرة الحلم</button>
+        </div>
+      </section>
+      <section class="section" id="memories" aria-labelledby="memoriesTitle">
+        <div class="container">
+          <div class="section-heading reveal"><div><p class="eyebrow">احتفالٌ بالإنجاز</p><h2 class="section-title" id="memoriesTitle">لحظاتٌ تُشبه الفرح</h2><p class="section-copy">قبعة في السماء، وشهادة تحمل بداية جديدة.</p></div><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg></div>
+          <div class="gallery-grid" id="galleryGrid">
+            <figure class="gallery-item reveal"><button class="gallery-image-button" type="button" data-photo="0" aria-label="تكبير صورة قبعة التخرج والشهادة"><img src="https://images.pexels.com/photos/17484327/pexels-photo-17484327.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" alt="قبعة تخرج وشهادة في أجواء طبيعية" width="800" height="1200" loading="lazy"><span class="image-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span></button><figcaption class="gallery-caption">قبعةٌ تحمل حلماً</figcaption></figure>
+            <figure class="gallery-item reveal" style="--reveal-delay:.12s"><button class="gallery-image-button" type="button" data-photo="1" aria-label="تكبير صورة احتفال الخريجين"><img src="https://images.pexels.com/photos/8093032/pexels-photo-8093032.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="خريجون يرفعون قبعاتهم احتفالاً عند الغروب" width="1200" height="627" loading="lazy"><span class="image-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span></button><figcaption class="gallery-caption">وللفرح، سماءٌ أوسع</figcaption></figure>
+            <figure class="gallery-item reveal" style="--reveal-delay:.24s"><button class="gallery-image-button" type="button" data-photo="2" aria-label="تكبير صورة قبعة التخرج ووثيقة التخرج"><img src="https://images.pexels.com/photos/7713436/pexels-photo-7713436.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="قبعة تخرج بجانب شهادة ملفوفة" width="1200" height="627" loading="lazy"><span class="image-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span></button><figcaption class="gallery-caption">ثمرةُ سنواتٍ من الإصرار</figcaption></figure>
+          </div>
+          <p class="gallery-note">صور احتفالية رمزية للتخرج، وليست صوراً شخصية لرفاه.</p>
+        </div>
+      </section>
+      <section class="certificate-section section" id="certificate" aria-labelledby="certificateTitle">
+        <div class="container certificate-layout">
+          <div class="certificate-copy reveal"><p class="eyebrow">ثمرة الرحلة</p><h2 class="section-title" id="certificateTitle">لحظة تستحق<br>أن تُحفظ <span class="gold">للأبد</span></h2><p class="section-copy">ورقة تحمل اسماً، وخلفها سنوات من الحلم والسهر والإصرار.</p></div>
+          <div class="reveal" style="--reveal-delay:.15s"><div class="certificate-frame"><div class="certificate-pending" id="certificatePending"><div class="plaque" role="img" aria-label="درع تهنئة من إدارة المعهد التقني الطبي للخريجة رفاه محمد الطاهي، قسم التخدير، 2025-2026"><div class="plaque-paper"><div class="plaque-seals" aria-hidden="true"><span class="plaque-seal"><svg class="icon"><use href="#i-cap"/></svg></span><span class="plaque-seal"><svg class="icon"><use href="#i-certificate"/></svg></span></div><p class="plaque-institute">إدارة المعهد التقني الطبي</p><p class="plaque-line">تتشرف بتقديم درع التهنئة للخريجة</p><p class="plaque-name">رفاه محمد الطاهي</p><p class="plaque-line">بمناسبة تخرجها من المعهد التقني الطبي</p><p class="plaque-dept">قسم التخدير</p><p class="plaque-line">متمنين لها دوام التوفيق والنجاح</p><p class="plaque-year">2025 - 2026</p></div></div><p class="plaque-note" id="certificateNote">درع التهنئة كما وُثّق في حفل التخرج</p></div><button class="certificate-preview" id="certificatePreview" type="button" aria-label="تكبير صورة شهادة تخرج رفاه" hidden><img data-certificate alt="صورة شهادة تخرج رفاه محمد الطاهي"><span class="image-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span></button></div><p class="certificate-caption" id="certificateCaption" hidden>شهادة رفاه، ذكرى الإنجاز التي لا تُنسى</p></div>
+        </div>
+      </section>
+      <section class="graduate section" id="graduate" aria-labelledby="profileTitle">
+        <div class="container graduate-layout"><div class="graduate-heading reveal"><p class="eyebrow">عن صاحبة الحكاية</p><h2 class="section-title" id="profileTitle">حلمٌ كَبُر…<br>ويدٌ تمنح الحياة</h2><p class="section-copy">من مقاعد الدراسة إلى رسالة إنسانية، تبدأ اليوم حكاية جديدة في عالم الرعاية.</p></div><dl class="graduate-details reveal" style="--reveal-delay:.15s"><div class="detail-row"><dt>الخريجة</dt><dd>رفاه محمد الطاهي</dd></div><div class="detail-row"><dt>الاختصاص</dt><dd>تخدير وإنعاش</dd></div><div class="detail-row"><dt>المناسبة</dt><dd>التخرج<svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg></dd></div></dl></div>
+      </section>
+      <footer class="closing" id="ending"><svg class="closing-sprig" aria-hidden="true"><use href="#botanical"/></svg><div class="ornament reveal" aria-hidden="true"><svg class="icon"><use href="#i-sparkle"/></svg></div><p class="closing-quote reveal">كانت رحلة… واليوم بدأت الحكاية الجديدة.</p><h2 class="closing-name reveal">رفاه محمد الطاهي</h2><p class="closing-specialty reveal">تخدير وإنعاش 🎓</p><p class="closing-wish reveal">مبارك التخرج، ومنها إلى أعلى المراتب والنجاحات 🤍✨</p><div class="closing-bottom"><p>صُنعت بمحبة، احتفالاً برفاه</p><button class="button-text" type="button" data-start-credits>نعيد الحكاية<svg class="icon" aria-hidden="true"><use href="#i-replay"/></svg></button></div></footer>
+    </div>
+  </main>
+
+  <div class="presentation-shell" id="presentationShell">
+    <section class="credits" id="credits" aria-labelledby="creditsTitle" hidden>
+      <div class="credits-background" aria-hidden="true"><img src="https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="" width="1200" height="627"></div><svg class="credits-sprig" aria-hidden="true"><use href="#botanical"/></svg>
+      <header class="credits-header"><span class="wordmark-name">رفاه</span><h2 class="credits-header-title" id="creditsTitle">مسيرة حلم… وحكاية نجاح</h2><button class="icon-button" id="creditsExit" type="button" aria-label="إغلاق المسيرة والعودة إلى البطاقة"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></header>
+      <div class="credits-stage" id="creditsStage">
+        <div class="credits-track" id="creditsTrack">
+          <div class="credit-block"><svg class="credit-emblem" aria-hidden="true"><use href="#graduate-emblem"/></svg><p class="eyebrow">بكل فخر ومحبة، نحتفل بتخرّج</p><h2 class="credit-name">رفاه محمد الطاهي</h2><p class="credit-specialty">خريجة اختصاص التخدير والإنعاش</p><div class="ornament" aria-hidden="true"><svg class="icon"><use href="#i-sparkle"/></svg></div></div>
+          <div class="credit-block"><p class="credit-quote"><span>وبعد سنواتٍ من التعب والسهر…</span><span>جاء يوم الحصاد</span></p><p class="credit-copy">لم يكن الطريق سهلاً،<br>لكن الحلم كان يستحق.</p></div>
+          <div class="credit-block"><p class="eyebrow">إلى رفاه، بكل الحب</p><h3 class="credit-title">ألف مبارك التخرج 🎓</h3><p class="credit-copy"><span>اليوم ليس يوماً عادياً…</span><span>اليوم ثمرة سنوات من التعب</span><span>والسهر والاجتهاد.</span><span>ألف مبارك لكِ يا رفاه،</span><span>ومنها للأعلى دائماً.</span></p><div class="ornament" aria-hidden="true"><svg class="icon"><use href="#i-heart"/></svg></div></div>
+          <div class="credit-block"><p class="eyebrow">احتفالٌ بالإنجاز</p><h3 class="credit-title">لحظاتٌ تُشبه الفرح</h3><figure class="credit-photo"><img class="portrait" src="https://images.pexels.com/photos/17484327/pexels-photo-17484327.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" alt="صورة رمزية لقبعة تخرج وشهادة" width="800" height="1200"><figcaption>قبعةٌ تحمل حلماً</figcaption></figure><figure class="credit-photo"><img src="https://images.pexels.com/photos/8093032/pexels-photo-8093032.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="صورة رمزية لاحتفال الخريجين وقبعاتهم" width="1200" height="627"><figcaption>وللفرح، سماءٌ أوسع</figcaption></figure><figure class="credit-photo"><img src="https://images.pexels.com/photos/7713436/pexels-photo-7713436.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="صورة رمزية لقبعة وشهادة تخرج" width="1200" height="627"><figcaption>ثمرةُ سنواتٍ من الإصرار</figcaption></figure><p class="gallery-note">صور احتفالية رمزية، وليست صوراً شخصية لرفاه.</p></div>
+          <div class="credit-block"><p class="eyebrow">ثمرة الرحلة</p><h3 class="credit-title">لحظة تستحق أن تُحفظ</h3><div class="credit-certificate"><img data-certificate alt="شهادة تخرج رفاه محمد الطاهي" hidden><div class="credit-certificate-pending" id="creditsCertificatePending"><div class="plaque" role="img" aria-label="درع تهنئة المعهد التقني الطبي للخريجة رفاه محمد الطاهي"><div class="plaque-paper"><div class="plaque-seals" aria-hidden="true"><span class="plaque-seal"><svg class="icon"><use href="#i-cap"/></svg></span><span class="plaque-seal"><svg class="icon"><use href="#i-certificate"/></svg></span></div><p class="plaque-institute">إدارة المعهد التقني الطبي</p><p class="plaque-line">تتشرف بتقديم درع التهنئة للخريجة</p><p class="plaque-name">رفاه محمد الطاهي</p><p class="plaque-line">بمناسبة تخرجها من المعهد التقني الطبي</p><p class="plaque-dept">قسم التخدير</p><p class="plaque-line">متمنين لها دوام التوفيق والنجاح</p><p class="plaque-year">2025 - 2026</p></div></div></div></div></div>
+          <div class="credit-block"><p class="eyebrow">رسالةٌ تمنح الأمل</p><h3 class="credit-title">تخدير وإنعاش</h3><p class="credit-copy"><span>علمٌ يسند الحياة،</span><span>وقلبٌ اختار أن يكون عوناً.</span><span>من حلمٍ على مقاعد الدراسة،</span><span>إلى حكاية جديدة في عالم الرعاية.</span></p></div>
+          <div class="credit-block"><p class="credit-quote">كانت رحلة…<br>واليوم بدأت الحكاية الجديدة.</p><h3 class="credit-end-name">رفاه محمد الطاهي</h3><p class="credit-specialty">تخدير وإنعاش 🎓</p><p class="credit-copy">مبارك التخرج،<br>ومنها إلى أعلى المراتب والنجاحات 🤍</p><div class="ornament" aria-hidden="true"><svg class="icon"><use href="#i-sparkle"/></svg></div></div>
+        </div>
+      </div>
+      <div class="credits-finish" id="creditsFinish" hidden><svg class="hero-emblem" aria-hidden="true"><use href="#graduate-emblem"/></svg><p class="eyebrow">هذه ليست النهاية… بل أجمل البدايات</p><h2 id="creditsFinishTitle" tabindex="-1">ألف مبارك يا رفاه</h2><p class="finish-wish">لِكِ من الفرح أجمله،<br>ومن النجاح أعلى مراتبه.</p><button class="button button-primary" id="finishBrowse" type="button">تصفّحوا بطاقة رفاه<svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg></button></div>
+      <div class="credits-toolbar"><button id="creditsPause" type="button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use id="creditsPauseIcon" href="#i-pause"/></svg><span id="creditsPauseLabel">إيقاف مؤقت</span></button><button id="creditsReplay" type="button"><svg class="icon" aria-hidden="true"><use href="#i-replay"/></svg>من البداية</button><button id="creditsBrowse" type="button"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>تصفّح البطاقة</button></div>
+      <p class="sr-only" id="creditsStatus" role="status" aria-live="polite"></p>
+    </section>
+    <div class="yt-audio-holder" id="ytAudioHolder" aria-hidden="true"><div id="ytPlayer"></div></div>
+    <button class="music-button" id="musicButton" type="button" aria-pressed="false" aria-label="تشغيل أغنية مبروك"><svg class="icon" aria-hidden="true"><use href="#i-music"/></svg><span class="equalizer" aria-hidden="true"><i></i><i></i><i></i></span><span id="musicLabel">تشغيل الأغنية</span></button>
+    <canvas id="celebrationCanvas" aria-hidden="true"></canvas>
+  </div>
+  <div class="floral-frame" aria-hidden="true">
+    <svg class="floral-corner tl"><use href="#floral-corner"/></svg><svg class="floral-corner tr"><use href="#floral-corner"/></svg><svg class="floral-corner bl"><use href="#floral-corner"/></svg><svg class="floral-corner br"><use href="#floral-corner"/></svg>
+    <svg class="floral-edge top" viewBox="0 0 420 54" preserveAspectRatio="xMidYMin meet"><use href="#leafy" x="30" y="14" width="150" height="40"/><use href="#leafy" x="240" y="14" width="150" height="40"/><use href="#rose" x="188" y="6" width="44" height="44"/></svg>
+    <svg class="floral-edge bottom" viewBox="0 0 420 54" preserveAspectRatio="xMidYMin meet"><use href="#leafy" x="30" y="14" width="150" height="40"/><use href="#leafy" x="240" y="14" width="150" height="40"/><use href="#rose" x="188" y="6" width="44" height="44"/></svg>
+    <svg class="floral-side left" viewBox="0 0 340 54" preserveAspectRatio="xMidYMin meet"><use href="#leafy" x="10" y="14" width="130" height="40"/><use href="#leafy" x="200" y="14" width="130" height="40"/><use href="#rose" x="150" y="6" width="42" height="42"/></svg>
+    <svg class="floral-side right" viewBox="0 0 340 54" preserveAspectRatio="xMidYMin meet"><use href="#leafy" x="10" y="14" width="130" height="40"/><use href="#leafy" x="200" y="14" width="130" height="40"/><use href="#rose" x="150" y="6" width="42" height="42"/></svg>
+  </div>
+  <div class="opening-transition" aria-hidden="true"><div class="card-leaf leaf-left"><svg class="leaf-sprig"><use href="#botanical"/></svg></div><div class="card-leaf leaf-right"><svg class="leaf-sprig"><use href="#botanical"/></svg></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightboxTitle"><div class="lightbox-header"><h2 class="lightbox-title" id="lightboxTitle">لحظات الفرح</h2><button class="icon-button" id="closeLightbox" type="button" aria-label="إغلاق الصورة"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div class="lightbox-stage" id="lightboxStage"><img id="lightboxImage" alt=""><button class="lightbox-arrow lightbox-prev" id="previousPhoto" type="button" aria-label="الصورة السابقة"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></button><button class="lightbox-arrow lightbox-next" id="nextPhoto" type="button" aria-label="الصورة التالية"><svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg></button></div><div class="lightbox-controls"><span id="lightboxCounter" aria-live="polite"></span><a id="originalPhoto" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg>الصورة الأصلية</a></div></dialog>
+  <noscript><style>#celebration[hidden]{display:block!important}.open-button,.music-button,[data-start-credits]{display:none!important}</style><p class="noscript-note">فعّلي JavaScript لمشاهدة المسيرة المتحركة وتشغيل الأغنية. يمكنك قراءة البطاقة دون الحركة.</p></noscript>
+  <script>
+    (() => {
+      'use strict';
+      const $ = (id) => document.getElementById(id);
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      const formatNumber = (value) => new Intl.NumberFormat('ar').format(value);
+      // Publisher-only configuration: a direct photo URL or inline image data, never a visitor upload.
+      const CERTIFICATE_SRC = 'certificate.jpg';
+      const VIDEO_ID = 'D406SxNJGBg';
+      const photos = Array.from(document.querySelectorAll('#galleryGrid .gallery-item')).map((figure) => ({
+        src: figure.querySelector('img').src,
+        alt: figure.querySelector('img').alt,
+        title: figure.querySelector('figcaption').textContent
+      }));
+      let toastTimer;
+      function notify(message) {
+        clearTimeout(toastTimer);
+        $('toast').textContent = message;
+        $('toast').classList.add('visible');
+        toastTimer = setTimeout(() => $('toast').classList.remove('visible'), 5500);
+      }
+      if ('IntersectionObserver' in window) {
+        document.body.classList.add('motion-ready');
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          });
+        }, { threshold: .1 });
+        document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+      }
+
+      function createCelebration() {
+        const canvas = $('celebrationCanvas');
+        const context = canvas.getContext('2d');
+        if (!context) return { burst() {} };
+        let width = 0, height = 0, frame = 0, lastTime = 0;
+        let particles = [];
+        const colors = ['#b29254', '#d5b985', '#bb938e', '#c4b1c5', '#e2cda5'];
+        const random = (min, max) => min + Math.random() * (max - min);
+        function makeParticle(burst = false, initial = false) {
+          return {
+            x: burst ? width * .5 + random(-width * .2, width * .2) : random(0, width),
+            y: burst ? height * .72 : (initial ? random(0, height) : height + 35),
+            vx: burst ? random(-170, 170) : random(-4, 4),
+            vy: burst ? random(-400, -170) : random(-22, -11),
+            rotation: random(-1, 1), spin: random(-.45, .45),
+            size: burst ? random(6, 17) : random(10, 19),
+            kind: Math.random() < .45 ? 0 : Math.floor(random(1, burst ? 5 : 4)),
+            color: colors[Math.floor(Math.random() * colors.length)],
+            age: 0, life: burst ? random(3.5, 5.8) : random(24, 48),
+            phase: random(0, 7), burst
+          };
+        }
+        function resize() {
+          width = window.innerWidth;
+          height = window.innerHeight;
+          const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+          canvas.width = Math.round(width * dpr);
+          canvas.height = Math.round(height * dpr);
+          context.setTransform(dpr, 0, 0, dpr, 0, 0);
+          particles = particles.filter((particle) => particle.burst);
+          if (!reducedMotion.matches) {
+            for (let index = 0; index < (width < 680 ? 7 : 12); index++) particles.push(makeParticle(false, true));
+          }
+        }
+        function draw(particle) {
+          const s = particle.size;
+          const ctx = context;
+          ctx.save();
+          ctx.translate(particle.x, particle.y);
+          ctx.rotate(particle.rotation);
+          ctx.globalAlpha = particle.burst ? Math.min(1, particle.age * 4, (particle.life - particle.age) * .8) * .85 : Math.min(1, particle.age / 3, (particle.life - particle.age) / 3) * .2;
+          ctx.fillStyle = particle.color;
+          ctx.strokeStyle = particle.color;
+          ctx.lineWidth = .9;
+          ctx.beginPath();
+          if (particle.kind === 0) {
+            ctx.moveTo(0, -s * .65); ctx.lineTo(s, -s * .15); ctx.lineTo(0, s * .35); ctx.lineTo(-s, -s * .15); ctx.closePath(); ctx.fill();
+            ctx.beginPath(); ctx.moveTo(-s * .55, s * .15); ctx.lineTo(-s * .55, s * .65); ctx.quadraticCurveTo(0, s * .95, s * .55, s * .65); ctx.lineTo(s * .55, s * .15); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(s, -s * .12); ctx.lineTo(s, s * .75); ctx.stroke();
+          } else if (particle.kind === 1) {
+            ctx.moveTo(0, -s); ctx.quadraticCurveTo(s * .2, -s * .2, s * .7, 0); ctx.quadraticCurveTo(s * .2, s * .2, 0, s); ctx.quadraticCurveTo(-s * .2, s * .2, -s * .7, 0); ctx.quadraticCurveTo(-s * .2, -s * .2, 0, -s); ctx.fill();
+          } else if (particle.kind === 2) {
+            ctx.rect(-s * .6, -s * .8, s * 1.2, s * 1.6); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(-s * .3, -s * .3); ctx.lineTo(s * .3, -s * .3); ctx.moveTo(-s * .3, 0); ctx.lineTo(s * .3, 0); ctx.stroke();
+            ctx.beginPath(); ctx.arc(0, s * .45, s * .15, 0, Math.PI * 2); ctx.stroke();
+          } else if (particle.kind === 3) {
+            ctx.moveTo(0, s * .65); ctx.bezierCurveTo(-s * 1.5, -s * .3, -s * .7, -s * 1.1, 0, -s * .45); ctx.bezierCurveTo(s * .7, -s * 1.1, s * 1.5, -s * .3, 0, s * .65); ctx.stroke();
+          } else { ctx.fillRect(-s * .3, -s * .65, s * .6, s * 1.3); }
+          ctx.restore();
+        }
+        function tick(time) {
+          frame = requestAnimationFrame(tick);
+          if (time - lastTime < 32) return;
+          const dt = Math.min((time - lastTime) / 1000, .06);
+          lastTime = time;
+          context.clearRect(0, 0, width, height);
+          const next = [];
+          for (const particle of particles) {
+            particle.age += dt;
+            particle.x += (particle.vx + Math.sin(particle.age + particle.phase) * 4) * dt;
+            particle.y += particle.vy * dt;
+            particle.rotation += particle.spin * dt;
+            if (particle.burst) particle.vy += 100 * dt;
+            if (particle.age < particle.life && particle.y > -35) { draw(particle); next.push(particle); }
+            else if (!particle.burst) next.push(makeParticle());
+          }
+          particles = next;
+        }
+        function sync() {
+          cancelAnimationFrame(frame);
+          context.clearRect(0, 0, width, height);
+          if (!reducedMotion.matches && !document.hidden) { lastTime = performance.now(); frame = requestAnimationFrame(tick); }
+        }
+        let resizeTimer;
+        window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(resize, 150); }, { passive: true });
+        document.addEventListener('visibilitychange', sync);
+        reducedMotion.addEventListener('change', () => { resize(); sync(); });
+        resize(); sync();
+        return {
+          burst() {
+            if (reducedMotion.matches) return;
+            particles = particles.filter((particle) => !particle.burst);
+            for (let index = 0; index < (width < 680 ? 48 : 78); index++) particles.push(makeParticle(true));
+          }
+        };
+      }
+      const celebration = createCelebration();
+
+      let opened = false, opening = false;
+      async function openInvitation(destination = '') {
+        if (opening) return;
+        if (!opened) {
+          opening = true;
+          $('openInvitation').disabled = true;
+          startSong(true);
+          document.body.classList.add('is-opening');
+          if (!reducedMotion.matches) await sleep(250);
+          $('celebration').hidden = false;
+          $('scrollInvitation').hidden = false;
+          $('openInvitation').setAttribute('aria-expanded', 'true');
+          $('openButtonLabel').textContent = 'شاهدوا مسيرة الحلم';
+          celebration.burst();
+          if (!reducedMotion.matches) await sleep(1400);
+          document.body.classList.remove('is-opening');
+          $('openInvitation').disabled = false;
+          opening = false;
+          opened = true;
+        }
+        if (destination) {
+          $(destination).scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth' });
+          const heading = $(destination).querySelector('h2');
+          if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+        } else { startPresentation(); }
+      }
+      $('openInvitation').addEventListener('pointerdown', () => startSong(true));
+      $('openInvitation').addEventListener('click', () => openInvitation());
+      document.querySelectorAll('[data-destination]').forEach((link) => link.addEventListener('click', (event) => {
+        event.preventDefault(); openInvitation(link.dataset.destination);
+      }));
+      document.querySelectorAll('[data-start-credits]').forEach((button) => button.addEventListener('click', () => startPresentation()));
+
+      // The entire reel moves as one composition. The viewport mask fades it out at the top.
+      let presenting = false, userPaused = false, reelFinished = false;
+      let reel = null, reelDuration = 1, reelStart = 0, reelEnd = 0;
+      let returnFocus = null, presentationSession = 0;
+      let layoutPause = false;
+      function syncReel() {
+        if (!presenting || !reel || reelFinished) return;
+        layoutPause = false;
+        const paused = userPaused || document.hidden || $('lightbox').open;
+        if (paused) reel.pause(); else reel.play();
+        $('creditsPause').setAttribute('aria-pressed', String(userPaused));
+        $('creditsPauseLabel').textContent = userPaused ? 'متابعة المسيرة' : 'إيقاف مؤقت';
+        $('creditsPauseIcon').setAttribute('href', paused ? '#i-play' : '#i-pause');
+      }
+      function buildReel(preserve = false) {
+        if (!presenting || reelFinished || $('creditsStage').hidden) return;
+        const previousFraction = reel ? Math.min(1, Number(reel.currentTime || 0) / reelDuration) : 0;
+        const previousPosition = preserve && reel ? reelStart + (reelEnd - reelStart) * previousFraction : null;
+        if (reel) reel.cancel();
+        const stageHeight = Math.max(100, $('creditsStage').clientHeight);
+        const trackHeight = $('creditsTrack').scrollHeight;
+        const start = stageHeight * .72;
+        const end = -trackHeight - 60;
+        const fraction = previousPosition === null ? 0 : Math.max(0, Math.min(1, (start - previousPosition) / (start - end)));
+        reelStart = start;
+        reelEnd = end;
+        reelDuration = (start - end) / (window.innerWidth < 680 ? 58 : 78) * 1000;
+        reel = $('creditsTrack').animate([
+          { transform: `translate3d(0, ${start}px, 0)` },
+          { transform: `translate3d(0, ${end}px, 0)` }
+        ], { duration: reelDuration, easing: 'linear', fill: 'both' });
+        reel.currentTime = fraction * reelDuration;
+        reel.onfinish = () => {
+          if (!presenting) return;
+          reelFinished = true;
+          $('creditsStage').hidden = true;
+          $('creditsFinish').hidden = false;
+          $('creditsPause').disabled = true;
+          $('creditsPauseLabel').textContent = 'اكتملت المسيرة';
+          $('creditsStatus').textContent = 'انتهت المسيرة. ألف مبارك يا رفاه. يمكنك إعادة العرض أو تصفح البطاقة.';
+          if ($('credits').contains(document.activeElement)) $('creditsFinishTitle').focus({ preventScroll: true });
+          celebration.burst();
+        };
+        syncReel();
+      }
+      async function startPresentation() {
+        if (reducedMotion.matches || typeof $('creditsTrack').animate !== 'function') {
+          $('celebration').hidden = false;
+          $('congratulations').scrollIntoView({ behavior: 'instant' });
+          notify(reducedMotion.matches ? 'تُعرض البطاقة دون حركة احتراماً لإعدادات جهازك.' : 'لا يدعم هذا المتصفح العرض المتحرك، لذا تُعرض البطاقة دون حركة.');
+          return;
+        }
+        if (presenting) { replayPresentation(); return; }
+        const session = ++presentationSession;
+        returnFocus = document.activeElement;
+        presenting = true;
+        userPaused = false;
+        reelFinished = false;
+        $('credits').hidden = false;
+        $('creditsStage').hidden = false;
+        $('creditsFinish').hidden = true;
+        $('creditsPause').disabled = false;
+        $('creditsTrack').style.visibility = 'hidden';
+        $('presentationShell').classList.add('is-presenting');
+        $('presentationShell').setAttribute('role', 'dialog');
+        $('presentationShell').setAttribute('aria-modal', 'true');
+        $('presentationShell').setAttribute('aria-labelledby', 'creditsTitle');
+        $('main').inert = true;
+        $('siteHeader').inert = true;
+        document.body.classList.add('modal-open');
+        $('creditsExit').focus({ preventScroll: true });
+        if (document.fonts) await Promise.race([document.fonts.ready, sleep(1500)]);
+        if (!presenting || session !== presentationSession) return;
+        $('creditsTrack').style.visibility = '';
+        buildReel();
+        $('creditsStatus').textContent = 'بدأت المسيرة. تصعد الكلمات والصور تلقائياً. يمكنك إيقاف الحركة أو عرض البطاقة.';
+        celebration.burst();
+      }
+      function replayPresentation() {
+        if (!presenting) { startPresentation(); return; }
+        userPaused = false;
+        reelFinished = false;
+        $('creditsStage').hidden = false;
+        $('creditsFinish').hidden = true;
+        $('creditsPause').disabled = false;
+        $('creditsTrack').style.visibility = '';
+        buildReel();
+        $('creditsStatus').textContent = 'أُعيدت المسيرة من البداية.';
+        celebration.burst();
+      }
+      function closePresentation(browse = false) {
+        if (!presenting) return;
+        presenting = false;
+        presentationSession++;
+        if (reel) { reel.cancel(); reel = null; }
+        $('credits').hidden = true;
+        $('presentationShell').classList.remove('is-presenting');
+        ['role', 'aria-modal', 'aria-labelledby'].forEach((attribute) => $('presentationShell').removeAttribute(attribute));
+        $('main').inert = false;
+        $('siteHeader').inert = false;
+        if (!$('lightbox').open) document.body.classList.remove('modal-open');
+        if (browse) {
+          $('congratulations').scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth' });
+          $('greetingTitle').tabIndex = -1;
+          $('greetingTitle').focus({ preventScroll: true });
+        } else if (returnFocus && returnFocus.isConnected) { returnFocus.focus({ preventScroll: true }); }
+      }
+      $('creditsPause').addEventListener('click', () => {
+        userPaused = !userPaused;
+        syncReel();
+        $('creditsStatus').textContent = userPaused ? 'توقفت المسيرة مؤقتاً.' : 'تستمر المسيرة.';
+      });
+      $('creditsReplay').addEventListener('click', replayPresentation);
+      $('creditsExit').addEventListener('click', () => closePresentation());
+      $('creditsBrowse').addEventListener('click', () => closePresentation(true));
+      $('finishBrowse').addEventListener('click', () => closePresentation(true));
+      let reelResizeTimer;
+      function scheduleReelLayout() {
+        clearTimeout(reelResizeTimer);
+        reelResizeTimer = setTimeout(() => { if (presenting && !reelFinished) buildReel(true); }, 140);
+      }
+      window.addEventListener('resize', scheduleReelLayout, { passive: true });
+      if ('ResizeObserver' in window) {
+        const observer = new ResizeObserver(scheduleReelLayout);
+        observer.observe($('creditsStage'));
+        observer.observe($('creditsTrack'));
+      }
+      document.addEventListener('keydown', (event) => {
+        if (!presenting || $('lightbox').open) return;
+        if (event.key === 'Escape') { event.preventDefault(); closePresentation(); return; }
+        if (event.key !== 'Tab') return;
+        const focusable = Array.from($('presentationShell').querySelectorAll('button:not([disabled]), a[href], iframe')).filter((element) => element.getClientRects().length && !element.closest('[hidden]'));
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+      });
+      document.addEventListener('focusin', (event) => {
+        if (presenting && !$('lightbox').open && !$('presentationShell').contains(event.target)) $('creditsExit').focus({ preventScroll: true });
+      });
+      reducedMotion.addEventListener('change', () => {
+        if (reducedMotion.matches && presenting) { closePresentation(true); notify('أُوقفت الحركة احتراماً لإعداد تقليل الحركة.'); }
+      });
+
+      let certificatePhoto = null;
+      if (CERTIFICATE_SRC) {
+        const image = new Image();
+        image.onload = () => {
+          certificatePhoto = { src: image.src, alt: 'شهادة تخرج رفاه محمد الطاهي', title: 'شهادة تخرج رفاه' };
+          document.querySelectorAll('[data-certificate]').forEach((element) => {
+            element.src = image.src;
+            element.width = image.naturalWidth;
+            element.height = image.naturalHeight;
+            element.hidden = false;
+          });
+          $('certificatePending').hidden = true;
+          $('creditsCertificatePending').hidden = true;
+          $('certificatePreview').hidden = false;
+          $('certificateCaption').hidden = false;
+          scheduleReelLayout();
+        };
+        image.onerror = () => {};
+        image.src = CERTIFICATE_SRC;
+      }
+      document.querySelectorAll('.gallery-image-button img').forEach((image) => {
+        image.addEventListener('error', () => {
+          image.hidden = true;
+          const button = image.closest('button');
+          button.disabled = true;
+          const message = document.createElement('span');
+          message.className = 'photo-unavailable';
+          message.textContent = 'تعذّر تحميل الصورة. تحققي من اتصال الإنترنت.';
+          button.append(message);
+        }, { once: true });
+      });
+
+      let lightboxCollection = [], lightboxIndex = 0;
+      function updateLightbox() {
+        if (!lightboxCollection.length) return;
+        lightboxIndex = (lightboxIndex + lightboxCollection.length) % lightboxCollection.length;
+        const photo = lightboxCollection[lightboxIndex];
+        $('lightboxImage').src = photo.src;
+        $('lightboxImage').alt = photo.alt;
+        $('lightboxTitle').textContent = photo.title;
+        $('lightboxCounter').textContent = `${formatNumber(lightboxIndex + 1)} / ${formatNumber(lightboxCollection.length)}`;
+        $('originalPhoto').href = photo.src;
+        $('previousPhoto').hidden = lightboxCollection.length < 2;
+        $('nextPhoto').hidden = lightboxCollection.length < 2;
+      }
+      function openLightbox(collection, index = 0) {
+        lightboxCollection = collection;
+        lightboxIndex = index;
+        updateLightbox();
+        $('lightbox').showModal();
+        document.body.classList.add('modal-open');
+        syncReel();
+      }
+      document.querySelectorAll('[data-photo]').forEach((button) => button.addEventListener('click', () => openLightbox(photos, Number(button.dataset.photo))));
+      $('certificatePreview').addEventListener('click', () => { if (certificatePhoto) openLightbox([certificatePhoto]); });
+      $('closeLightbox').addEventListener('click', () => $('lightbox').close());
+      $('lightbox').addEventListener('close', () => { if (!presenting) document.body.classList.remove('modal-open'); syncReel(); });
+      function movePhoto(step) { lightboxIndex += step; updateLightbox(); }
+      $('previousPhoto').addEventListener('click', () => movePhoto(-1));
+      $('nextPhoto').addEventListener('click', () => movePhoto(1));
+      $('lightbox').addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowLeft') { event.preventDefault(); movePhoto(1); }
+        if (event.key === 'ArrowRight') { event.preventDefault(); movePhoto(-1); }
+      });
+      let touchStart = null;
+      $('lightboxStage').addEventListener('touchstart', (event) => {
+        touchStart = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+      }, { passive: true });
+      $('lightboxStage').addEventListener('touchend', (event) => {
+        if (!touchStart) return;
+        const dx = event.changedTouches[0].clientX - touchStart.x;
+        const dy = event.changedTouches[0].clientY - touchStart.y;
+        if (Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy) * 1.5) movePhoto(dx < 0 ? 1 : -1);
+        touchStart = null;
+      }, { passive: true });
+      $('lightboxStage').addEventListener('touchcancel', () => { touchStart = null; }, { passive: true });
+
+      // Audio-only control: the visitor sees one song button, not a video panel.
+      let apiPromise = null, player = null, playerReady = false, playerFailed = false;
+      let playing = false, wantsPlayback = false, playerSession = 0, playerCreating = false;
+      function loadYouTubeAPI() {
+        if (window.YT && window.YT.Player) return Promise.resolve();
+        if (apiPromise) return apiPromise;
+        apiPromise = new Promise((resolve, reject) => {
+          let settled = false;
+          const finish = (error) => {
+            if (settled) return;
+            settled = true;
+            clearTimeout(timeout);
+            if (error) reject(error); else resolve();
+          };
+          const timeout = setTimeout(() => finish(new Error('YouTube API timeout')), 15000);
+          window.onYouTubeIframeAPIReady = () => finish();
+          const previous = $('youtube-api');
+          if (previous) previous.remove();
+          const script = document.createElement('script');
+          script.id = 'youtube-api';
+          script.src = 'https://www.youtube.com/iframe_api';
+          script.async = true;
+          script.onerror = () => finish(new Error('YouTube API unavailable'));
+          document.head.append(script);
+        }).catch((error) => { apiPromise = null; throw error; });
+        return apiPromise;
+      }
+      let gestureRetryArmed = false;
+      function armGestureRetry() {
+        if (gestureRetryArmed || !wantsPlayback) return;
+        gestureRetryArmed = true;
+        const retry = () => {
+          gestureRetryArmed = false;
+          document.removeEventListener('pointerdown', retry, true);
+          document.removeEventListener('keydown', retry, true);
+          if (wantsPlayback && player && playerReady && !playing) { try { player.playVideo(); } catch {} }
+        };
+        document.addEventListener('pointerdown', retry, true);
+        document.addEventListener('keydown', retry, true);
+      }
+      function startSong(auto = false) {
+        wantsPlayback = true;
+        if (playerFailed) {
+          if (!auto) notify('تعذّر تشغيل الأغنية داخل الموقع.');
+          return;
+        }
+        if (player && playerReady) {
+          try { player.playVideo(); } catch { playerError(); }
+          return;
+        }
+        mountPlayer();
+        if (!auto) notify('جارٍ تجهيز الأغنية…');
+      }
+      function syncSongUI() {
+        $('musicButton').setAttribute('aria-pressed', String(playing));
+        $('musicButton').setAttribute('aria-label', playing ? 'إيقاف أغنية مبروك' : 'تشغيل أغنية مبروك لرامي عياش');
+        $('musicLabel').textContent = playing ? 'إيقاف الأغنية' : 'تشغيل الأغنية';
+      }
+      function pauseSong() {
+        wantsPlayback = false;
+        if (player && playerReady) { try { player.pauseVideo(); } catch {} }
+        playing = false;
+        syncSongUI();
+      }
+      function playerError(code) {
+        playerFailed = true;
+        wantsPlayback = false;
+        playing = false;
+        syncSongUI();
+        notify(code === 153 ? 'يلزم فتح الموقع عبر استضافة ويب لتعمل الأغنية.' : 'تعذّر تشغيل الأغنية داخل الموقع.');
+      }
+      async function mountPlayer() {
+        if (player || playerCreating) return;
+        playerCreating = true;
+        const session = ++playerSession;
+        playerReady = false;
+        playerFailed = false;
+        const iframe = document.createElement('iframe');
+        iframe.id = 'songIframe';
+        iframe.title = 'أغنية مبروك';
+        iframe.width = '200';
+        iframe.height = '200';
+        iframe.allow = 'autoplay; encrypted-media';
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        const parameters = new URLSearchParams({ enablejsapi: '1', playsinline: '1', autoplay: '0', controls: '0', disablekb: '1', rel: '0', hl: 'ar', loop: '1', playlist: VIDEO_ID });
+        if (location.protocol === 'http:' || location.protocol === 'https:') parameters.set('origin', location.origin);
+        iframe.src = `https://www.youtube.com/embed/${VIDEO_ID}?${parameters}`;
+        $('ytAudioHolder').replaceChildren(iframe);
+        try {
+          await loadYouTubeAPI();
+          if (session !== playerSession) return;
+          player = new window.YT.Player(iframe, {
+            events: {
+              onReady(event) {
+                if (session !== playerSession) { event.target.destroy(); return; }
+                playerReady = true;
+                playerCreating = false;
+                event.target.setVolume(70);
+                if (wantsPlayback && !document.hidden) { event.target.playVideo(); armGestureRetry(); }
+                else event.target.pauseVideo();
+              },
+              onStateChange(event) {
+                if (session !== playerSession) return;
+                if (event.data === window.YT.PlayerState.PLAYING) {
+                  if (document.hidden) { event.target.pauseVideo(); return; }
+                  playing = true;
+                  wantsPlayback = true;
+                } else if ([window.YT.PlayerState.PAUSED, window.YT.PlayerState.ENDED, window.YT.PlayerState.CUED].includes(event.data)) {
+                  playing = false;
+                  if (event.data === window.YT.PlayerState.ENDED) wantsPlayback = false;
+                }
+                syncSongUI();
+              },
+              onAutoplayBlocked() {
+                if (session !== playerSession) return;
+                playing = false;
+                syncSongUI();
+                armGestureRetry();
+              },
+              onError(event) { if (session === playerSession) playerError(event.data); }
+            }
+          });
+        } catch {
+          playerCreating = false;
+          if (session !== playerSession) return;
+          playerFailed = true;
+          if (wantsPlayback) notify('تعذّر تحميل الأغنية. تحققي من الاتصال ثم حاولي مجدداً.');
+          syncSongUI();
+        }
+      }
+      $('musicButton').addEventListener('click', () => {
+        if (playing) pauseSong();
+        else startSong();
+      });
+      document.addEventListener('visibilitychange', () => {
+        syncReel();
+        if (document.hidden) pauseSong();
+      });
+      window.addEventListener('pagehide', pauseSong);
+      mountPlayer();
+      const initialTarget = location.hash.slice(1);
+      if (['memories', 'certificate', 'graduate', 'congratulations', 'ending'].includes(initialTarget)) openInvitation(initialTarget);
+    })();
+  </script>
+</body>
+</html>
